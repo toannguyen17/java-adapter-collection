@@ -16,6 +16,11 @@ public class Main {
         CollectionUtilsAdapter collectionUtilsAdapter = new CollectionUtilsAdapter();
         List<Integer> list = collectionUtilsAdapter.adapter(setA);
 
+        CollectionUtils collectionUtils = new CollectionUtils();
+
+        int max = collectionUtils.findMax(list);
+
         System.out.println(list);
+        System.out.println("Max: " + max);
     }
 }
